@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --version)",
+      "Bash(ls -la /Users/gullu/Documents/Projects)",
+      "Read(//Users/gullu/Documents/Projects/**)",
+      "Bash(dotnet --list-sdks)",
+      "Bash(mkdir -p src/TranslateSharp.Abstractions src/TranslateSharp)",
+      "Bash(dotnet new *)",
+      "Bash(dotnet sln *)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet run *)",
+      "Bash(curl -s http://localhost:5000/products/1)",
+      "Bash(curl -s http://localhost:5091/products/1)"
+    ],
+    "additionalDirectories": [
+      "/Users/gullu/Documents/Projects/package/src"
+    ]
+  }
+}

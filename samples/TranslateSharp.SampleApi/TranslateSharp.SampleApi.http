@@ -1,0 +1,6 @@
+@TranslateSharp.SampleApi_HostAddress = http://localhost:5091
+
+GET {{TranslateSharp.SampleApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
